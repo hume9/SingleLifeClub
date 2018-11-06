@@ -54,9 +54,12 @@
   min-width: 300px;
 }
 
-h1 {
+.h1 {
   text-align: center;  
 }
+  h2.center {
+    position: center;
+  }
 
 input {
   padding: 10px;
@@ -140,9 +143,49 @@ button:hover {
       <li><h2>Application</h2></li>
       <li><h2><a href="contactus.html">Contact Us</a></h2></li>
     </ul>
-<form id="regForm" action="/action_page.php">
+  <h2 class="center">Register</h2>
+  <form action="mailto:Huntermericle@me.com?Subject=Register" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+Phone #:<br> 
+<input type="text" name="phone" size="50"><br><br>
+What skills do you bring to the SLC’s table?<br> 
+<input type="text" name="skills" size="50"><br><br>
+Note (if any) the details of the closest thing you’ve had to a romantic relationship:<br> 
+<input type="text" name="reationship "size="50"><br><br>
+Is there a prospect that you will leave the club in the next one-two months?<br> 
+<input type="text" name="prospect" size="50"><br><br>
+Do you desire to leave the club at some point?<br> 
+<input type="text" name="leave" size="50"><br><br>
+Would you be willing to publicly promote the SLC, in person and online, and possibly with merchandising? If no, explain. If yes, to what extent?<br> 
+<input type="text" name="promote SLC" size="50"><br><br>
+Who is your favorite board member? (Pick one and be honest)<br> 
+<input type="text" name="favorite board member" size="50"><br><br>
+<p>On a scale of 1-10, rate…</p>
+Your ability to talk to opposite sex
+<br> 
+<input type="text" name="ability to talk" size="50"><br><br>
+Your ability to memorize a handshake
+<br> 
+<input type="text" name="memorize a handshake" size="50"><br><br>
+Your availability to appear in SLC social media posts
+<br>
+<input type="text" name="availavility to appear in SLC" size="50"><br><br>
+How much do you respect women?
+<br> 
+<input type="text" name="How much do you respect women" size="50"><br><br>
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+
+</form>
+<!--<form id="regForm" action="/action_page.php">
   <h1>Register:</h1>
-  <!-- One "tab" for each step in the form: -->
+  <!-- One "tab" for each step in the form:
   <div class="tab">Name:
     <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
     <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
@@ -194,7 +237,7 @@ button:hover {
       <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
     </div>
   </div>
-  <!-- Circles which indicates the steps of the form: -->
+  <!-- Circles which indicates the steps of the form:
   <div style="text-align:center;margin-top:40px;">
     <span class="step"></span>
     <span class="step"></span>
@@ -286,7 +329,7 @@ function fixStepIndicator(n) {
   //... and adds the "active" class on the current step:
   x[n].className += " active";
 }
-</script>
+</script>-->
 
 </body>
 </html>
