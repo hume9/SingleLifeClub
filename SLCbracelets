@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout</title>
+<style>
+ #main-headline {
+        color: black;
+      }
+ .nav {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+        text-decoration: none;
+        border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+
+</style>
+</head>
+<body>
+<ul class="nav">
+      <li><h1 id="main-headline"><a href="index.html">SLC</a></h1></li>
+      <li><h2><a href="About.html">About t</a></h2></li>
+      <li><h2><a href="News.html">News</a></h2></li>
+      <li><h2><a href="Application.html">Application</a></h2></li>
+      <li><h2><a href="contactus.html">Contact Us</a></h2></li>
+      <li><h2>Store</h2></li>
+    </ul>
+<form action="mailto:Huntermericle@me.com?Subject=Register" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Phone #:<br> 
+<input type="text" name="phone" size="50"><br><br>
+How many do you want?<br> 
+<input type="text" name="quantity" size="50"><br><br>
+Method of Payment?<br>
+<input type="text" name="method "size="50"><br><br>
+*If you dont go to lutheran what is your address so we can mail it to you.<br>
+<input type="text" name="address " size="50"><br><br>
+
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+
+</form>
+
+
+
+
+<p>* We will not start the mailing process till you have mailed us the sufficient amount of money</p>
+</body>
+</html>>
